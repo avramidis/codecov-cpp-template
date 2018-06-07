@@ -1,0 +1,1 @@
+# codecov-cpp-template

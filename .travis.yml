@@ -21,4 +21,4 @@ script:
   
 after_success: 
   # Uploading report to CodeCov
-  #- bash <(curl -s https://codecov.io/bash) || echo "Codecov did not collect coverage reports"
+  - bash <(curl -s https://codecov.io/bash) || echo "Codecov did not collect coverage reports"

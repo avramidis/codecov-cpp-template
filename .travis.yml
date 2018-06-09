@@ -17,7 +17,7 @@ script:
   - make
   - ./codecovexample
   - cd ..
-  - ./get_code_cov.sh
+  #- ./get_code_cov.sh
   
 after_success: 
   # Uploading report to CodeCov
